@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilePage">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background_home"
+        android:scaleType="fitXY"
+        android:scaleX="2"
+        >
+    </ImageView>
+
+
+    <ImageView
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_above="@+id/Name"
+        android:layout_marginBottom="@dimen/_55sdp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/image"
+        android:src="@drawable/profile"
+        android:background="#0000"
+        android:scaleType="fitCenter"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_50sdp"
+        android:text="UserName"
+        android:layout_toRightOf="@id/headName"
+        android:textSize="@dimen/_20sdp"
+        android:id="@+id/Name"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_above="@+id/headPass"
+        android:layout_marginBottom="@dimen/_20sdp"
+        >
+    </TextView>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_50sdp"
+        android:text="UserName:"
+        android:textSize="@dimen/_20sdp"
+        android:id="@+id/headName"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_above="@+id/headPass"
+        android:layout_marginBottom="@dimen/_20sdp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_50sdp"
+        android:text="PassWord:"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_above="@+id/cardSave"
+        android:textSize="@dimen/_20sdp"
+        android:id="@+id/headPass"
+        android:layout_marginBottom="@dimen/_35sdp"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_50sdp"
+        android:text="PassWord"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@+id/headPass"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_above="@+id/cardSave"
+        android:textSize="@dimen/_20sdp"
+        android:id="@+id/Pass"
+        android:layout_marginBottom="@dimen/_35sdp"
+        >
+    </TextView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/toolbar"
+        android:layout_marginBottom="@dimen/_55sdp"
+        android:id="@+id/cardSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_25sdp"
+        android:backgroundTint="#0000"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change"
+                android:id="@+id/Change"
+                android:textSize="@dimen/_30sdp"
+                android:textColor="@color/white"
+                android:backgroundTint="#0000"
+                >
+            </Button>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_5sdp"
+        >
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home"
+            android:scaleType="fitCenter"
+            android:id="@+id/homePage"
+            android:layout_weight="1"
+            android:background="#0000"
+            >
+        </ImageButton>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/avtar0"
+            android:scaleType="fitCenter"
+            android:id="@+id/ProfilePage"
+            android:layout_weight="1"
+            android:background="#0000"
+            >
+        </ImageButton>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/setting"
+            android:scaleType="fitCenter"
+            android:id="@+id/SettingPage"
+            android:layout_weight="1"
+            android:background="#0000"
+            >
+        </ImageButton>
+    </LinearLayout>
+
+</RelativeLayout>

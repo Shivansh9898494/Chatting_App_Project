@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Change_ProfilePage">
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background_home"
+        android:scaleType="fitXY"
+        android:scaleX="2"
+        >
+    </ImageView>
+
+
+    <ImageButton
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_above="@+id/ChangeName"
+        android:layout_marginBottom="@dimen/_55sdp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/image"
+        android:src="@drawable/profile"
+        android:background="#0000"
+        android:scaleType="fitCenter"
+        />
+
+
+    <EditText
+        android:layout_toRightOf="@+id/ChangeName"
+        android:layout_above="@+id/ChangeUserPass"
+        android:id="@+id/ChangeUserName"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:hint="UserName "
+        android:layout_marginBottom="@dimen/_23sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:textColorHint="@color/white"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="#FFFFFF"
+        android:inputType="textEmailAddress"
+        >
+
+    </EditText>
+
+
+
+    <EditText
+        android:layout_toRightOf="@+id/ChangePass"
+        android:layout_above="@+id/cardSave"
+        android:id="@+id/ChangeUserPass"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:hint=" Password "
+        android:layout_marginBottom="@dimen/_48sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:textColorHint="@color/white"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="#FFFFFF"
+        android:inputType="textPassword"
+        >
+
+    </EditText>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_50sdp"
+        android:text="UserName:"
+        android:textSize="@dimen/_20sdp"
+        android:id="@+id/ChangeName"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_above="@+id/ChangePass"
+        android:layout_marginBottom="@dimen/_20sdp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_50sdp"
+        android:text="PassWord:"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_above="@+id/cardSave"
+        android:textSize="@dimen/_20sdp"
+        android:id="@+id/ChangePass"
+        android:layout_marginBottom="@dimen/_35sdp"
+        >
+    </TextView>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_95sdp"
+        android:id="@+id/cardSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_25sdp"
+        android:backgroundTint="#0000"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:padding="@dimen/_20sdp"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:id="@+id/ChangeSave"
+                android:textSize="@dimen/_30sdp"
+                android:textColor="@color/white"
+                android:backgroundTint="#0000"
+                >
+            </Button>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

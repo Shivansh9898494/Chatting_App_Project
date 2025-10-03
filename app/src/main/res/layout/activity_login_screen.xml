@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="fitXY"
+        >
+    </ImageView>
+
+
+
+    <TextView
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_57sdp"
+        android:text="  Login Page  "
+        android:textSize="@dimen/_35sdp"
+        android:textColor="#ffff"
+        android:layout_centerHorizontal="true"
+        android:background="#00000000"
+        android:textStyle="bold"
+        android:id="@+id/Head"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_marginTop="@dimen/_35sdp"
+        android:id="@+id/Usertext"
+        android:layout_below="@+id/Head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter User_Name"
+        android:textSize="@dimen/_25sdp"
+        android:textColor="#3E3E3E"
+        android:layout_centerHorizontal="true"
+        >
+
+    </TextView>
+
+
+
+    <EditText
+        android:layout_below="@+id/Usertext"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:id="@+id/UserName"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:hint=" UserName "
+        android:textColorHint="#3E3E3E"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="#767676"
+        android:backgroundTint="#3E3E3E"
+        android:layout_centerHorizontal="true"
+        android:inputType="textEmailAddress"
+        >
+    </EditText>
+
+
+
+    <TextView
+        android:layout_marginTop="@dimen/_35sdp"
+        android:id="@+id/Passtext"
+        android:layout_below="@+id/UserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="@dimen/_25sdp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#3E3E3E"
+        >
+
+    </TextView>
+
+    <EditText
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@+id/Passtext"
+        android:id="@+id/UserPass"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:hint=" Password "
+        android:textSize="@dimen/_20sdp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:inputType="textEmailAddress"
+        >
+
+    </EditText>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/LoginCard"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0000"
+        android:padding="@dimen/_25sdp"
+        app:cardCornerRadius="@dimen/_25sdp"
+        android:layout_below="@+id/UserPass"
+        android:layout_centerHorizontal="true"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Sign In "
+                android:textSize="@dimen/_25sdp"
+                android:id="@+id/Loginbtn"
+                android:backgroundTint="#0000"
+                android:textColor="#fff"
+                >
+            </Button>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0000"
+        android:padding="@dimen/_25sdp"
+        app:cardCornerRadius="@dimen/_25sdp"
+        android:layout_below="@+id/LoginCard"
+        android:layout_centerHorizontal="true"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Sign Up  "
+                android:textSize="@dimen/_20sdp"
+                android:id="@+id/Regbtn"
+                android:background="#0000"
+                android:textColor="#fff"
+                >
+            </Button>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

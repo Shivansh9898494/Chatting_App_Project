@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Avatar"
+        android:textColor="#000000"
+        android:textSize="@dimen/_25sdp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/_25sdp"
+        >
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_70sdp"
+        >
+    <ImageButton
+        android:id="@+id/avtar1"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/avtar1"
+        android:scaleType="fitCenter"
+        >
+    </ImageButton>
+    <ImageButton
+        android:id="@+id/avtar2"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/avtar2"
+        >
+    </ImageButton>
+    <ImageButton
+        android:id="@+id/avtar3"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/avtar3"
+        >
+    </ImageButton>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_70sdp"
+
+        >
+        <ImageButton
+            android:id="@+id/avtar4"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/avtar4"
+            android:scaleType="fitCenter"
+            >
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/avtar5"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/avtar5"
+            >
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/avtar6"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/avtar6"
+            >
+        </ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_70sdp"
+
+        >
+        <ImageButton
+            android:id="@+id/avtar7"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/avtar7"
+            android:scaleType="fitCenter"
+            >
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/avtar8"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/avtar8"
+            >
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/avtar9"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/avtar9"
+            >
+        </ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_70sdp"
+
+        >
+        <ImageButton
+            android:id="@+id/avtar10"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/avtar10"
+            android:scaleType="fitCenter"
+            >
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/avtar11"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/avtar11"
+            >
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/avtar12"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/avtar12"
+            >
+        </ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_70sdp"
+
+        >
+        <ImageButton
+            android:id="@+id/avtar13"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/avtar13"
+            android:scaleType="fitCenter"
+            >
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/avtar14"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/avtar14"
+            >
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/avtar15"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/avtar15"
+            >
+        </ImageButton>
+    </LinearLayout>
+
+</LinearLayout>
