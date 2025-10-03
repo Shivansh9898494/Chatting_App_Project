@@ -21,6 +21,8 @@ Secure Authentication: Uses ID and password for sign-in, with user data managed 
 
 Profile Customization: Users can change their profile avatar (profile picture) and update their name and password settings, allowing for a personalized user experience.
 
+YouTube Video Link:https://youtube.com/shorts/qkznrDyK9lM?feature=share
+
 Technology Stack: It utilizes the traditional and powerful Android stack of Java for the logic and XML for the user interface layout.
 
 
