@@ -26,6 +26,36 @@ YouTube Video Link:https://youtube.com/shorts/qkznrDyK9lM?feature=share
 Technology Stack: It utilizes the traditional and powerful Android stack of Java for the logic and XML for the user interface layout.
 
 
+<h3 align="left">🛠 ScreenShot</h3>
+
+<div>
+<h5 align="left"> Splash_Screen || Sign_In_Screen || Sign_Up_Screen</h5>
+ <img src="https://github.com/Shivansh9898494/Chatting_App_Project/blob/master/Screen_Shot/splash_Screen.jpg" height="300" alt="C logo"  />
+
+ <img src="https://github.com/Shivansh9898494/Chatting_App_Project/blob/master/Screen_Shot/Login_Screen.jpg" height="300" alt="C logo"  />
+  <img src="https://github.com/Shivansh9898494/Chatting_App_Project/blob/master/Screen_Shot/Sign_Up_Screen.jpg" height="300" alt="C logo"  />
+  </div>
 
 
+  <div>
+<h5 align="left"> Home_Screen || Profile_Screen || Setting_Screen</h5>
+ <img src="https://github.com/Shivansh9898494/Chatting_App_Project/blob/master/Screen_Shot/Home_Screen.jpg" height="300" alt="C logo"  />
+
+ <img src="https://github.com/Shivansh9898494/Chatting_App_Project/blob/master/Screen_Shot/Profile_Screen.jpg" height="300" alt="C logo"  />
+  <img src="https://github.com/Shivansh9898494/Chatting_App_Project/blob/master/Screen_Shot/Setting_Screen.jpg" height="300" alt="C logo"  />
+  </div>
+
+  <div>
+<h5 align="left"> Clean_Chat_Screen || Chat_Screen</h5>
+ 
+ <img src="https://github.com/Shivansh9898494/Chatting_App_Project/blob/master/Screen_Shot/Chat_Screen_Empty.jpg" height="300" alt="C logo"  />
+  <img src="https://github.com/Shivansh9898494/Chatting_App_Project/blob/master/Screen_Shot/Chat_Screen.jpg" height="300" alt="C logo"  />
+  </div>
+
+<div>
+<h5 align="left"> Select_Avtar_Screen || Profile_Change_Screen</h5>
+ 
+ <img src="https://github.com/Shivansh9898494/Chatting_App_Project/blob/master/Screen_Shot/Avatar_Select.jpg" height="300" alt="C logo"  />
+  <img src="https://github.com/Shivansh9898494/Chatting_App_Project/blob/master/Screen_Shot/Profile_Change.jpg" height="300" alt="C logo"  />
+  </div>
 
